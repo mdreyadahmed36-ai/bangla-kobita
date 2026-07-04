@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#273338;
+}
+h1{
+color: white;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 7px 0px 7px;
+}
+p{
+    color: whitesmoke;
+    margin-top: 15px;
+    padding: 8px;
+}
+a{
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}

@@ -5,10 +5,10 @@
 body{
     display: flex;
     justify-content: center;
-    background-color:honeydew ;
+    background-color:#1B1F24;
 }
 form{
-    border-radius: 0px;
+    border-radius: 8px;
     background-color: antiquewhite;
     margin-top: 10%;
     padding: 10px;
@@ -63,4 +63,7 @@ select{
 }
 #input{
     border: none;
+}
+textarea{
+    max-width:100%;
 }
