@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1B1F24;
+}
+header{
+    background-color:#252A33;;
+    position: relative;
+    height: 120px;
+}
+header h1{
+    padding: 5px 0px 4px 8px;
+    color: aqua;
+}
+header nav{
+    margin-top:10px;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+header nav ul li a{
+    border-radius: 5px;
+    text-decoration: none;
+    background-color:cornflowerblue;
+    font-size: 18px;
+    font-family:cursive;
+    color: azure;
+    padding: 7px 15px;
+}
+.main_content article img{
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px 0px 0px 10px;
+}
+.main_content article pre{
+    color: white;
+    text-align: center;
+    font-family:"Noto Serif Bengali", serif;
+}
+.main_content article p{
+    color: burlywood;
+    text-align:right;
+    margin-right: 10%;
+    font-size: 14px;
+}
+.main_content article h2{
+    text-align: center;
+    margin: 15px 0px 7px 0px;
+    font-weight: bolder;
+    color: coral;
+}
+
