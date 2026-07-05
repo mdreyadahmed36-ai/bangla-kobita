@@ -3,11 +3,10 @@
     padding: 0px;
 }
 body{
-    display: flex;
-    justify-content: center;
     background-color:#1B1F24;
 }
 form{
+    margin: 0 auto;
     border-radius: 8px;
     background-color: antiquewhite;
     margin-top: 10%;
